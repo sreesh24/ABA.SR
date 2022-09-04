@@ -11,10 +11,10 @@ void main()
     float US,DS,SW,S;
     printf("Enter the upstream speed:\n");
     scanf("%f",&US);
-    printf("Enter the downstreamstream speed:\n");
+    printf("Enter the downstream speed:\n");
     scanf("%f",&DS);
         SW=(DS+US)/2;
         S=(DS-US)/2;
-    printf("The rate of man in still water is %f km/hr,SW");
-    printf("The rate of current is %f km/hr,S");
+    printf("The rate of man in still water is %0.3f km/hr\n",SW);
+    printf("The rate of current is %0.3f km/hr",S);
 }
